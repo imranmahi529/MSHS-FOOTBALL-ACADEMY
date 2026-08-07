@@ -2125,3 +2125,785 @@ nav ul li a:hover::after{
 
 }
 
+
+/* ==========================================
+   PLAYER PROFILE PAGE
+========================================== */
+
+
+/* MAIN PROFILE */
+
+.player-profile-section{
+
+    padding:100px 0;
+
+    background:#f8faf9;
+
+}
+
+
+.profile-box{
+
+    display:grid;
+
+    grid-template-columns:350px 1fr;
+
+    gap:50px;
+
+    align-items:center;
+
+    background:#fff;
+
+    padding:45px;
+
+    border-radius:25px;
+
+    box-shadow:var(--shadow);
+
+}
+
+
+
+.profile-image{
+
+    position:relative;
+
+}
+
+
+.profile-image img{
+
+    width:100%;
+
+    height:400px;
+
+    object-fit:cover;
+
+    border-radius:25px;
+
+}
+
+
+
+.jersey-number{
+
+    position:absolute;
+
+    bottom:20px;
+
+    right:20px;
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+
+    background:var(--secondary);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:28px;
+
+    font-weight:800;
+
+    color:#111;
+
+}
+
+
+
+.profile-badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    background:var(--primary);
+
+    color:#fff;
+
+    padding:8px 20px;
+
+    border-radius:30px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.profile-info h2{
+
+    font-size:45px;
+
+    color:var(--primary);
+
+    margin-bottom:15px;
+
+}
+
+
+
+.profile-info .position{
+
+    font-size:20px;
+
+    color:#555;
+
+}
+
+
+
+/* ==========================================
+   PLAYER DETAILS CARDS
+========================================== */
+
+
+.player-details-section{
+
+    padding:100px 0;
+
+}
+
+
+
+.details-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+
+
+.detail-card{
+
+    background:#fff;
+
+    padding:35px 20px;
+
+    text-align:center;
+
+    border-radius:20px;
+
+    box-shadow:var(--shadow);
+
+    transition:.3s;
+
+}
+
+
+
+.detail-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+
+
+.detail-card i{
+
+    font-size:40px;
+
+    color:var(--secondary);
+
+    margin-bottom:20px;
+
+}
+
+
+
+.detail-card h3{
+
+    color:var(--primary);
+
+    margin-bottom:10px;
+
+}
+
+/* ==========================================
+   PERFORMANCE REPORT
+========================================== */
+
+.performance-report{
+
+    padding:100px 0;
+
+    background:#f8faf9;
+
+}
+
+
+
+.report-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+
+
+.report-card{
+
+    background:#fff;
+
+    padding:35px 25px;
+
+    text-align:center;
+
+    border-radius:20px;
+
+    box-shadow:var(--shadow);
+
+}
+
+
+
+.report-card i{
+
+    font-size:45px;
+
+    color:var(--secondary);
+
+    margin-bottom:20px;
+
+}
+
+
+
+.report-card h3{
+
+    color:var(--primary);
+
+    margin-bottom:20px;
+
+}
+
+
+
+.report-progress{
+
+    height:15px;
+
+    background:#eee;
+
+    border-radius:50px;
+
+    overflow:hidden;
+
+}
+
+
+
+.report-progress span{
+
+    display:flex;
+
+    height:100%;
+
+    background:var(--primary);
+
+    color:#fff;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:11px;
+
+    border-radius:50px;
+
+}
+
+
+
+/* ==========================================
+   MATCH STATISTICS
+========================================== */
+
+
+.match-statistics{
+
+    padding:100px 0;
+
+}
+
+
+
+.stats-box{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+
+
+.stats-box div{
+
+    background:var(--primary);
+
+    color:#fff;
+
+    padding:40px 20px;
+
+    text-align:center;
+
+    border-radius:20px;
+
+}
+
+
+
+.stats-box h3{
+
+    font-size:45px;
+
+    color:#FFD54F;
+
+    margin-bottom:10px;
+
+}
+
+
+
+.stats-box p{
+
+    color:#fff;
+
+    font-size:18px;
+
+}
+
+
+
+/* ==========================================
+   COACH COMMENT
+========================================== */
+
+
+.coach-comment{
+
+    padding:100px 0;
+
+    background:#f8faf9;
+
+}
+
+
+
+.comment-box{
+
+    max-width:850px;
+
+    margin:auto;
+
+    background:#fff;
+
+    padding:50px;
+
+    text-align:center;
+
+    border-radius:25px;
+
+    box-shadow:var(--shadow);
+
+}
+
+
+
+.comment-box i{
+
+    font-size:50px;
+
+    color:var(--secondary);
+
+    margin-bottom:25px;
+
+}
+
+
+
+.comment-box p{
+
+    font-size:20px;
+
+    line-height:1.9;
+
+    font-style:italic;
+
+}
+
+
+
+.comment-box h4{
+
+    margin-top:25px;
+
+    color:var(--primary);
+
+}
+
+
+/* ==========================================
+   ACHIEVEMENT HISTORY
+========================================== */
+
+.achievement-history{
+
+    padding:100px 0;
+
+}
+
+
+.history-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+
+.history-card{
+
+    background:#fff;
+
+    padding:40px 25px;
+
+    text-align:center;
+
+    border-radius:20px;
+
+    box-shadow:var(--shadow);
+
+    transition:.3s;
+
+}
+
+
+.history-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+
+.history-card i{
+
+    font-size:50px;
+
+    color:var(--secondary);
+
+    margin-bottom:20px;
+
+}
+
+
+.history-card h3{
+
+    color:var(--primary);
+
+    margin-bottom:15px;
+
+}
+
+
+
+/* ==========================================
+   TRAINING RECORD
+========================================== */
+
+
+.training-record{
+
+    padding:100px 0;
+
+    background:#f8faf9;
+
+}
+
+
+.training-table{
+
+    max-width:800px;
+
+    margin:auto;
+
+    background:#fff;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:var(--shadow);
+
+}
+
+
+
+.training-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    padding:25px 35px;
+
+    border-bottom:1px solid #eee;
+
+}
+
+
+
+.training-row:last-child{
+
+    border-bottom:none;
+
+}
+
+
+
+.training-row strong{
+
+    color:var(--primary);
+
+}
+
+
+
+.training-row span{
+
+    font-weight:700;
+
+    color:#0b6e4f;
+
+}
+
+
+
+/* ==========================================
+   QR PLAYER ID
+========================================== */
+
+
+.player-qr{
+
+    padding:100px 0;
+
+}
+
+
+
+.qr-box{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:50px;
+
+    background:#111;
+
+    color:#fff;
+
+    padding:50px;
+
+    border-radius:25px;
+
+}
+
+
+
+.qr-image img{
+
+    width:180px;
+
+    height:180px;
+
+    background:#fff;
+
+    padding:10px;
+
+    border-radius:15px;
+
+}
+
+
+
+.qr-content h2{
+
+    color:#FFD54F;
+
+    font-size:35px;
+
+}
+
+
+
+.qr-content h3{
+
+    color:#fff;
+
+    margin-top:20px;
+
+}
+
+
+
+/* ==========================================
+   VIDEO HIGHLIGHT
+========================================== */
+
+
+.player-video{
+
+    padding:100px 0;
+
+    background:#f8faf9;
+
+}
+
+
+
+.video-box iframe{
+
+    width:100%;
+
+    height:500px;
+
+    border:none;
+
+    border-radius:20px;
+
+    box-shadow:var(--shadow);
+
+}
+
+
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+
+@media(max-width:992px){
+
+
+.profile-box{
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+
+}
+
+
+.details-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+.report-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+.stats-box{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+.history-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+.qr-box{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+
+}
+
+
+
+@media(max-width:768px){
+
+
+.details-grid,
+
+.report-grid,
+
+.stats-box{
+
+    grid-template-columns:1fr;
+
+}
+
+
+.profile-info h2{
+
+    font-size:32px;
+
+}
+
+
+.profile-image img{
+
+    height:320px;
+
+}
+
+
+.training-row{
+
+    flex-direction:column;
+
+    gap:10px;
+
+}
+
+
+.video-box iframe{
+
+    height:250px;
+
+}
+
+
+}
